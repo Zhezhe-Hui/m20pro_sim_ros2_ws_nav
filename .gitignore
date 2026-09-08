@@ -1,0 +1,59 @@
+# ROS / colcon generated files
+build/
+install/
+log/
+devel/
+.colcon/
+
+# Python cache and test output
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Local editor / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Runtime data, bags, point clouds, and model artifacts
+bags/
+*.bag
+*.db3
+*.mcap
+*.pcd
+*.ply
+*.onnx
+*.engine
+*.rknn
+*.pt
+*.pth
+
+# Local raw map/session exports outside ROS packages
+/working_*/
+**/.blocks/
+**/.sessions/
+
+# Third-party reference workspace kept locally, not part of this project
+dddmr_navigation/
+/x30_core_nav_slam/
+
+# Local map editor/export metadata
+**/.optimizers/
+/src/m20pro_bringup/maps/Original_map/occ_grid_id_map.toml
+
+# Documents that may be copyrighted or private
+*.pdf
+
+# Local environment/secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Local M20 Pro project memory notes
+m20pro.md
